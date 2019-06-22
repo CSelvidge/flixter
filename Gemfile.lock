@@ -253,7 +253,7 @@ DEPENDENCIES
   bootstrap
   byebug
   capybara (>= 2.15)
-  coffee-rails (~> 4.2)
+  coffee-rails
   devise
   jbuilder (~> 2.5)
   jquery-rails

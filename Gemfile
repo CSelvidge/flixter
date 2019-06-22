@@ -61,6 +61,6 @@ source 'https://rails-assets.org' do
   gem 'rails-assets-tether', '>= 1.3.3'
 end
 gem 'uglifier'
-gem 'coffee-rails', '~> 4.2'
+gem 'coffee-rails'
 gem 'simple_form'
 gem 'devise'
