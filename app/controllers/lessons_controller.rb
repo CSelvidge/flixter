@@ -9,8 +9,8 @@ class LessonsController < ApplicationController
   private
 
   def require_authorized_for_current_lesson
-    if current_lesson.section.course.user.enrolled_in?(@course) == false
-      redirect_to courses_path(@course), alert: 'Unauthorized for content.'
+    if !current_user.enrolled_in?(current_lesson.section.course)
+      redirect_to course_path(current_lesson.section.course), alert: 'Unauthorized for content.'
     end
   end
 
