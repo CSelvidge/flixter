@@ -19,7 +19,7 @@
   font-family: "Helvetica Neue", Helvetica;
   font-weight: 200;
   box-shadow: 0px 1px 3px #2a2a2a;
-  background: image_url('prism.png');
+  background-image: url('prism.png');
 }
 
 .navbar-dark a.navbar-brand {
@@ -29,7 +29,7 @@
 }
 
 .hero {
-  background: image_url('hero.jpg') no-repeat center center fixed;
+  background-image: url('hero.jpg');
   background-color: #cccccc;
   background-repeat: no-repeat;
   background-position: center;
@@ -39,8 +39,8 @@
 }
 
 body {
-  background: image_url('stardust_2x.png');
-  font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+  background-image: url('stardust_2x.png');
+  font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", "Georgia", serif;
   color: #878787;
 }
 
@@ -110,6 +110,7 @@ h1, h2, h3, h4, h5, h6, .navbar {
 }
 
 .section-li {
+  background: #46484a;
   border: 1px solid;
   border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
   padding: 20px;
@@ -129,6 +130,7 @@ ul .header .fa {
 }
 
 .lessons li {
+  background: black;
   color: white;
   margin: 10px;
   font-family: "Helvetica Neue", Helvetica;
@@ -137,11 +139,11 @@ ul .header .fa {
   font-size: 15px;
 }
 
-.lessons li b { 
+.lessons li b {
   font-size: 25px;
   font-weight: 100;
- }
+}
 
- .lessons li p {
+.lessons li p {
   margin: 0;
  }
