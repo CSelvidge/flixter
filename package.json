@@ -15,5 +15,12 @@
   "version": "0.1.0",
   "devDependencies": {
     "webpack-dev-server": "^3.7.2"
-  }
+  },
+
+  "resolutions": {
+    "browserslist": "4.6.2",
+    "caniuse-lite": "1.0.30000974"
 }
+
+}
+
