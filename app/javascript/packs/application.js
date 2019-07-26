@@ -9,12 +9,12 @@ import $ from 'jquery';
 global.$ = $
 global.jQuery = $
 
-
 require('jquery-ui');
 
 // jquery-ui theme
 require.context('file-loader?name=[path][name].[ext]&context=node_modules/jquery-ui-dist!jquery-ui-dist', true,    /jquery-ui\.css/ );
 require.context('file-loader?name=[path][name].[ext]&context=node_modules/jquery-ui-dist!jquery-ui-dist', true,    /jquery-ui\.theme\.css/ );
+
 
 require("@rails/ujs").start()
 require("turbolinks").start()
